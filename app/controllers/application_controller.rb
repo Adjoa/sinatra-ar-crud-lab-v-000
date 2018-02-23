@@ -18,7 +18,7 @@ class ApplicationController < Sinatra::Base
   post '/posts' do
     @name = params[:name]
     @content = params[:content]
-    
+
     erb :index
   end
 
